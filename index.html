@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts: Poppins & Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffee Shop Counter</title>
+  </head>
+
+  <body>
+    <div class="counter-wrapper">
+      <img id="coffee-icon" src="images/coffee-icon.png" />
+      <h1>Today's Coffee Shop Visitors :</h1>
+      <h2 id="count-el">0</h2>
+      <button id="increment-btn" onclick="increment()">Add Customer</button>
+      <button id="save-btn" onclick="save()">Save Today's Count</button>
+      <p id="save-el">Previous days :</p>
+      <img id="coffee-img" src="images/img.png" />
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

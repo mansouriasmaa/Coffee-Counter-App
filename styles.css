@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #230c02;
+  color: #eedcc6;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.counter-wrapper {
+  max-width: 40%;
+  margin: 5% auto;
+}
+
+#coffee-icon {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#count-el {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#increment-btn,
+#save-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff5e9;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#increment-btn:hover,
+#save-btn:hover {
+  background-color: #eedcc6;
+}
+
+#coffee-img {
+  width: 400px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
